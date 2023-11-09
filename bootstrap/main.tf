@@ -1,5 +1,5 @@
 locals {
-  project = lower("tbd-${var.tbd_semester}-${var.user_id}")
+  project = lower("tbd-${var.tbd_semester}-${var.user_id}-2")
 }
 
 resource "google_project" "tbd_project" {
